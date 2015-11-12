@@ -1,0 +1,51 @@
+/*
+Description: MEDIA.CSS || Media queries
+Version: 1.0b
+Author: Kareem Atif
+Author URI: http://kareematif.me
+Email: Kareematif@gmail.com | Twitter: @kareematif
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+---------------------------------------------------*/
+@media screen and (max-width:940), (orientation: portrait){
+/* BODY
+----------------------*/
+.col12 {width:94%;padding:0 3%}
+.col11 {width:99.03%}
+.col10 {width:98.93%}
+.col9 {width:88.82%}
+.col8 {width:78.72%}
+.col7 {width:68.61%}
+.col6 {width:58.51%}
+.col5 {width:48.40%}
+.col4 {width:38.30%}
+.col3 {width:28.19%}
+.col2 {width:18.09%}
+/* Collected Props
+-----------------------*/
+footer .menu,.articles h1:after,.articles .controls  {display:none;}
+.articles .header,footer .credits p {text-align: center}
+/* HEADER
+----------------------*/
+header {position:inherit;padding:1% 0 0}
+header .logo:hover .first, .first {margin:0}
+header .logo{height:auto;padding-bottom:5px;}
+.logo a {font-size:1em}
+.show-menu-m, .menu li,.articles header, article {display:block}
+.menu a {margin:0;}
+.menu-mob {text-align:center!important;display: none;}
+/* CONTENT
+----------------------*/
+main {padding-top:0}
+section {padding:2.5em 0}
+/* CONTENT - Front
+----------------------*/
+.landing p {padding:0 10%}
+.landing svg {min-width:250px;height:240px;}
+.articles h1 {padding:0}
+.articles h1 span {display: inline}
+/* FOOTER
+----------------------*/
+footer .credits {margin-top:1em;}
+
+}
